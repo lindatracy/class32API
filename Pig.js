@@ -20,7 +20,12 @@ class Pig extends BaseClass {
    }
    
  }
-
+ score(){
+   //this.visibility is subtracted by 5 in line 16, 1000/5=200 score will be incremented
+   if(this.Visiblity<0&&this.Visiblity>-1005){
+     score++;
+   }
+ }
 
 
 };
